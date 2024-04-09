@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass"), url(../font/Overpass.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass"), url(../font/Overpass.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SourceHanSans";
+  src: local("SourceHanSans"),
+    url(../font/SourceHanSansCN-Light.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceHanSans";
+  src: local("SourceHanSans"),
+    url(../font/SourceHanSansCN-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+html body {
+  font-family: "Overpass", "SourceHanSans", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}

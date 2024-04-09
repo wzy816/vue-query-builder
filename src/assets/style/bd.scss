@@ -1,0 +1,30 @@
+@mixin bd-flex {
+  display: flex;
+}
+@mixin bd-flex-row {
+  @include bd-flex;
+  flex-direction: row;
+}
+@mixin bd-flex-column {
+  @include bd-flex;
+  flex-direction: column;
+}
+@mixin bd-flex-center {
+  @include bd-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin bd-hover-pointer {
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.el-icon-plus,
+.el-icon-minus {
+  font-weight: 300;
+}
+.el-radio-button--small .el-radio-button__inner {
+  padding: 6px 10px;
+}
